@@ -1,33 +1,23 @@
-# projekat2
+# Pixel Art Collaborative App (Vue.js)
 
-This template should help get you started developing with Vue 3 in Vite.
+Web aplikacija za kolaborativno pixel-art crtanje razvijena u okviru kursa Skript jezici.
 
-## Recommended IDE Setup
+Aplikacija omogućava korisnicima pregled galerije crteža, autentifikaciju i zajedničko crtanje na platnu u realnom vremenu.
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+## Tehnologije
+- Vue.js 3 (Vite)
+- TypeScript
+- Pinia
+- Vue Router
+- CSS
 
-## Type Support for `.vue` Imports in TS
+## Trenutne funkcionalnosti
+- Navigacija između stranica (Home, Login, Register, Gallery, Drawing)
+- Osnovna stranica za crtanje
+- Platno bazirano na matrici piksela
+- Alat za crtanje (olovka)
+- Izbor boje
+- Struktura projekta spremna za dalje proširenje
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vite.dev/config/).
-
-## Project Setup
-
-```sh
+## Pokretanje projekta
 npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Type-Check, Compile and Minify for Production
-
-```sh
-npm run build
-```
